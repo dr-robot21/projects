@@ -1,0 +1,1214 @@
+{
+  "questions": [
+    {
+      "question": "Qu’est-ce qu’une liste chaînée simple ?",
+      "options": [
+        "Une liste avec des éléments triés uniquement.",
+        "Une structure de données dynamique où chaque nœud pointe vers le suivant.",
+        "Une liste fixe de données contiguës.",
+        "Un tableau ordonné."
+      ],
+      "correctAnswer": "Une structure de données dynamique où chaque nœud pointe vers le suivant.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la principale différence entre une liste chaînée simple et un tableau ?",
+      "options": [
+        "Les tableaux permettent des ajouts dynamiques.",
+        "Les listes châniées nécessitent un parcours pour insérer à une position donnée.",
+        "Les tableaux nécessitent plus de mémoire que les listes châniées.",
+        "Les listes châniées sont limitées en taille."
+      ],
+      "correctAnswer": "Les listes châniées nécessitent un parcours pour insérer à une position donnée.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment accède-t-on au dernier élément d’une liste chaînée simple ?",
+      "options": [
+        "En utilisant un index.",
+        "En parcourant chaque nœud depuis le début jusqu’à NULL.",
+        "En utilisant le pointeur arrière.",
+        "En accédant directement à l’adresse mémoire."
+      ],
+      "correctAnswer": "En parcourant chaque nœud depuis le début jusqu’à NULL.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est le rôle du pointeur dans une liste chaînée ?",
+      "options": [
+        "Stocker les données de l’élément courant.",
+        "Pointer vers le nœud suivant.",
+        "Supprimer les doublons.",
+        "Afficher les données."
+      ],
+      "correctAnswer": "Pointer vers le nœud suivant.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité temporelle pour insérer un élément à la fin d’une liste chaînée ?",
+      "options": [
+        "O(1).",
+        "O(n).",
+        "O(log n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(n).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que contient le dernier nœud d’une liste chaînée simple ?",
+      "options": [
+        "Un pointeur vers le premier élément.",
+        "Un pointeur vers NULL.",
+        "Un pointeur vers un tableau.",
+        "Une valeur indéfinie."
+      ],
+      "correctAnswer": "Un pointeur vers NULL.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que se passe-t-il lorsqu’on supprime un nœud dans une liste chaînée ?",
+      "options": [
+        "Les nœuds voisins se réarrangent automatiquement.",
+        "Le pointeur du nœud précédent est mis à jour pour ignorer le nœud supprimé.",
+        "La mémoire est automatiquement libérée.",
+        "Le pointeur NULL est déplacé."
+      ],
+      "correctAnswer": "Le pointeur du nœud précédent est mis à jour pour ignorer le nœud supprimé.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un pointeur NULL dans le contexte des listes châniées ?",
+      "options": [
+        "Une erreur de segmentation.",
+        "Un pointeur qui indique la fin de la liste.",
+        "Une référence circulaire.",
+        "Un pointeur vers le début de la liste."
+      ],
+      "correctAnswer": "Un pointeur qui indique la fin de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment insère-t-on un nœud au début d’une liste chaînée simple ?",
+      "options": [
+        "Le nouveau nœud pointe vers le premier, puis la tête pointe vers le nouveau nœud.",
+        "On parcourt toute la liste et insère le nœud après le dernier élément.",
+        "La tête pointe vers le nouveau nœud puis le nouveau nœud pointe vers le premier.",
+        "On remplace directement la tête existante par le nouveau nœud."
+      ],
+      "correctAnswer": "Le nouveau nœud pointe vers le premier, puis la tête pointe vers le nouveau nœud.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la fonction utilisée pour allouer un nouveau nœud dans une liste chaînée en C ?",
+      "options": [
+        "malice.",
+        "free.",
+        "realice.",
+        "scanf."
+      ],
+      "correctAnswer": "malloc.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment détecte-t-on une liste chaînée vide ?",
+      "options": [
+        "La tête pointe vers NULL.",
+        "Le premier nœud contient une valeur nulle.",
+        "Tous les pointeurs des nœuds sont définis.",
+        "Le dernier nœud pointe vers la tête."
+      ],
+      "correctAnswer": "La tête pointe vers NULL.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité de la suppression d’un élément au début d’une liste chaînée simple ?",
+      "options": [
+        "O(1).",
+        "O(n).",
+        "O(log n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(1).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Pourquoi utilise-t-on les listes châniées au lieu des tableaux ?",
+      "options": [
+        "Les listes châniées sont plus rapides pour accéder à des éléments spécifiques.",
+        "Les listes châniées permettent une utilisation dynamique de la mémoire.",
+        "Les tableaux ne permettent pas d’accéder aux éléments séquentiellement.",
+        "Les listes châniées n’ont pas besoin de pointeurs."
+      ],
+      "correctAnswer": "Les listes châniées permettent une utilisation dynamique de la mémoire.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que signifie \"parcourir une liste chaînée\" ?",
+      "options": [
+        "Libérer toute la mémoire utilisée par la liste.",
+        "Ajouter des éléments à la liste.",
+        "Rechercher un élément spécifique.",
+        "Déplacer un pointeur d’un nœud au suivant jusqu’à la fin de la liste."
+      ],
+      "correctAnswer": "Déplacer un pointeur d’un nœud au suivant jusqu’à la fin de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la différence principale entre une liste simplement chaînée et une liste doublement chaînée ?",
+      "options": [
+        "Les listes châniées simples contiennent plus de pointeurs.",
+        "Une liste doublement chaînée permet un parcours bidirectionnel.",
+        "Une liste simple ne peut pas être triée.",
+        "Les listes doublement châniées utilisent moins de mémoire."
+      ],
+      "correctAnswer": "Une liste doublement chaînée permet un parcours bidirectionnel.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelles sont les étapes pour supprimer un élément spécifique dans une liste chaînée ?",
+      "options": [
+        "Remplacer la tête par le nœud suivant.",
+        "Ajouter un nouveau nœud à la fin.",
+        "Réinitialiser tous les pointeurs.",
+        "Mettre à jour le pointeur du nœud précédent pour ignorer le nœud supprimé."
+      ],
+      "correctAnswer": "Mettre à jour le pointeur du nœud précédent pour ignorer le nœud supprimé.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment fusionne-t-on deux listes chal nées ?",
+      "options": [
+        "En copiant tous les nœuds dans un tableau.",
+        "En connectant le dernier nœud de la première liste au premier nœud de la seconde.",
+        "En ajoutant une tête commune.",
+        "En copiant tous les nœuds de la première dans la deuxième."
+      ],
+      "correctAnswer": "En connectant le dernier nœud de la première liste au premier nœud de la seconde.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment gère-t-on la mémoire d’une liste chaînée en fin de programme ?",
+      "options": [
+        "Libérer chaque nœud avec free.",
+        "Réinitialiser tous les pointeurs à NULL.",
+        "Parcourir la liste et supprimer le premier nœud uniquement.",
+        "Ignorer la liste, car la mémoire sera automatiquement libérée."
+      ],
+      "correctAnswer": "Libérer chaque nœud avec free.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle structure est utilisée pour contrôler une liste chaînée ?",
+      "options": [
+        "Un tableau fixe.",
+        "Une pile.",
+        "Un pointeur vers le premier nœud.",
+        "Un graphe."
+      ],
+      "correctAnswer": "Un pointeur vers le premier nœud.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment insère-t-on un élément dans une liste triée ?",
+      "options": [
+        "Toujours au début.",
+        "Toujours à la fin.",
+        "À la position correcte pour maintenir l’ordre.",
+        "Au hasard."
+      ],
+      "correctAnswer": "À la position correcte pour maintenir l’ordre.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que contient la tête d’une liste chaînée ?",
+      "options": [
+        "Le pointeur vers le dernier nœud.",
+        "Un pointeur vers le premier nœud.",
+        "Un tableau des nœuds.",
+        "La valeur du dernier élément."
+      ],
+      "correctAnswer": "Un pointeur vers le premier nœud.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Pourquoi préfère-t-on les listes chaînées pour les structures dynamiques ?",
+      "options": [
+        "Elles occupent toujours moins de mémoire.",
+        "Elles permettent une croissance ou une réduction flexible.",
+        "Elles permettent un accès rapide par index.",
+        "Elles n’ont pas besoin de libérer de mémoire."
+      ],
+      "correctAnswer": "Elles permettent une croissance ou une réduction flexible.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment détermine-t-on si une liste est circulaire ?",
+      "options": [
+        "En vérifiant si le dernier nœud pointe vers la tête.",
+        "En vérifiant si le pointeur de la tête est NULL.",
+        "En comptant les nœuds.",
+        "En insérant un élément et en parcourant la liste."
+      ],
+      "correctAnswer": "En vérifiant si le dernier nœud pointe vers la tête.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que fait la fonction free pour un nœud d’une liste chaînée ?",
+      "options": [
+        "Réinitialise la liste entière.",
+        "Alloue un nouvel espace mémoire pour un nœud.",
+        "Libère la mémoire occupée par le nœud.",
+        "Supprime uniquement les données du nœud."
+      ],
+      "correctAnswer": "Libère la mémoire occupée par le nœud.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que se passe-t-il si une liste chaînée est mal terminée ?",
+      "options": [
+        "Les éléments deviennent inaccessibles.",
+        "Un parcours peut entrer dans une boucle infinie.",
+        "Tous les nœuds sont supprimés.",
+        "La mémoire est libérée automatiquement."
+      ],
+      "correctAnswer": "Un parcours peut entrer dans une boucle infinie.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’une liste circulaire ?",
+      "options": [
+        "Une liste où chaque nœud a deux pointeurs.",
+        "Une liste où le dernier nœud pointe vers le premier.",
+        "Une liste triée dynamiquement.",
+        "Une liste limitée en taille."
+      ],
+      "correctAnswer": "Une liste où le dernier nœud pointe vers le premier.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’une liste chaînée doublement circulaire ?",
+      "options": [
+        "Une liste où chaque nœud a un pointeur vers le précédent et le suivant, et le dernier nœud pointe vers le premier.",
+        "Une liste avec deux têtes.",
+        "Une liste où les nœuds sont reliés uniquement par des pointeurs arrière.",
+        "Une liste où tous les nœuds contiennent une valeur NULL."
+      ],
+      "correctAnswer": "Une liste où chaque nœud a un pointeur vers le précédent et le suivant, et le dernier nœud pointe vers le premier.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité de l’insertion d’un élément dans une liste doublement chaînée, à une position donnée ?",
+      "options": [
+        "O(1).",
+        "O(n).",
+        "O(log n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(n).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une liste circulaire, comment détecte-t-on une boucle ?",
+      "options": [
+        "En parcourant la liste jusqu’à atteindre un pointeur NULL.",
+        "En vérifiant si le pointeur du dernier élément revient à la tête.",
+        "En supprimant le dernier élément.",
+        "En triant la liste."
+      ],
+      "correctAnswer": "En vérifiant si le pointeur du dernier élément revient à la tête.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment supprime-t-on un élément d’une liste doublement chaînée ?",
+      "options": [
+        "En mettant à jour les pointeurs du nœud précédent et suivant.",
+        "En supprimant le premier nœud uniquement.",
+        "En remplaçant la tête par le dernier élément.",
+        "En mettant tous les pointeurs à NULL."
+      ],
+      "correctAnswer": "En mettant à jour les pointeurs du nœud précédent et suivant.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une liste circulaire, comment détermine-t-on si un nœud est le dernier ?",
+      "options": [
+        "Si son pointeur suivant pointe vers NULL.",
+        "Si son pointeur suivant pointe vers la tête de la liste.",
+        "Si sa valeur est égale à zéro.",
+        "Si le pointeur précédent pointe vers lui-même."
+      ],
+      "correctAnswer": "Si son pointeur suivant pointe vers la tête de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’une pile en informatique ?",
+      "options": [
+        "Une structure de données avec insertion et suppression en FIFO.",
+        "Une structure de données avec insertion et suppression en LIFO.",
+        "Un tableau trié.",
+        "Un graphe orienté."
+      ],
+      "correctAnswer": "Une structure de données avec insertion et suppression en LIFO.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est l’opération utilisée pour insérer un élément dans une file ?",
+      "options": [
+        "enquête.",
+        "enflier.",
+        "dequeue.",
+        "défiler."
+      ],
+      "correctAnswer": "enflier.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est l’opération utilisée pour retirer un élément d’une file ?",
+      "options": [
+        "enquête.",
+        "enflier.",
+        "dequeue.",
+        "défiler."
+      ],
+      "correctAnswer": "défiler.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que signifie FIFO dans le contexte des files ?",
+      "options": [
+        "First In, First Out.",
+        "First In, Fast Out.",
+        "Fast In, First Out.",
+        "First Input, First Output."
+      ],
+      "correctAnswer": "First In, First Out.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une file, où est inséré un nouvel élément ?",
+      "options": [
+        "Au début.",
+        "À la fin.",
+        "À une position aléatoire.",
+        "Au milieu."
+      ],
+      "correctAnswer": "À la fin.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est le principe d’une pile ?",
+      "options": [
+        "Les éléments sont triés automatiquement.",
+        "Le dernier élément inséré est le premier à être retiré.",
+        "Le premier élément inséré est le premier à être retiré.",
+        "Les éléments sont insérés dans un ordre aléatoire."
+      ],
+      "correctAnswer": "Le dernier élément inséré est le premier à être retiré.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité temporelle moyenne pour une opération empiler ou déplier sur une pile implémentée avec liste chaînée ?",
+      "options": [
+        "O(1).",
+        "O(n).",
+        "O(log n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(1).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la différence principale entre une pile et une file ?",
+      "options": [
+        "Une file est toujours triée, une pile non.",
+        "Une pile utilise plus de mémoire qu’une file.",
+        "Une pile permet des suppressions aléatoires, une file non.",
+        "Une pile fonctionne en LIFO, une file en FIFO."
+      ],
+      "correctAnswer": "Une pile fonctionne en LIFO, une file en FIFO.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que signifie l’état d’une file vide ?",
+      "options": [
+        "Le pointeur avant est NULL.",
+        "Aucun élément n’est présent dans la file.",
+        "Tous les éléments ont été supprimés mais restent visibles.",
+        "La file a atteint sa capacité maximale."
+      ],
+      "correctAnswer": "Aucun élément n’est présent dans la file.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment détecte-t-on une pile vide ?",
+      "options": [
+        "Le pointeur de la base est NULL.",
+        "Le pointeur du sommet est NULL.",
+        "La taille actuelle est égale à zéro.",
+        "Les deux réponses B et C."
+      ],
+      "correctAnswer": "Les deux réponses B et C.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle structure de données peut être utilisée pour une recherche en largeur dans un graphe ?",
+      "options": [
+        "Une pile.",
+        "Une file.",
+        "Un tableau.",
+        "Un arbre."
+      ],
+      "correctAnswer": "Une file.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment implémente-t-on une file avec deux piles ?",
+      "options": [
+        "On utilise une pile pour insérer et l’autre pour retirer.",
+        "Les deux piles sont fusionnées en une seule.",
+        "Une pile stocke les éléments pairs, l’autre les impairs.",
+        "On n’utilise qu’une seule pile pour la gestion complète."
+      ],
+      "correctAnswer": "On utilise une pile pour insérer et l’autre pour retirer.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la principale limite d’une pile implémentée avec un tableau fixe ?",
+      "options": [
+        "Elle nécessite plus de mémoire.",
+        "Sa taille maximale est définie à l’avance.",
+        "Elle ne permet pas l’accès par index.",
+        "Elle est plus lente que l’implémentation avec des pointeurs."
+      ],
+      "correctAnswer": "Sa taille maximale est définie à l’avance.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un arbre binaire ?",
+      "options": [
+        "Un arbre où chaque nœud a au maximum deux enfants.",
+        "Un arbre où tous les nœuds ont exactement deux enfants.",
+        "Un arbre qui ne contient que des valeurs numériques.",
+        "Un arbre toujours parfaitement équilibré."
+      ],
+      "correctAnswer": "Un arbre où chaque nœud a au maximum deux enfants.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la propriété principale d’un arbre binaire de recherche (ABR) ?",
+      "options": [
+        "Chaque nœud a exactement deux enfants.",
+        "Les valeurs des nœuds de gauche sont inférieures à la racine, et celles de droite sont supérieures.",
+        "Tous les nœuds sont triés par ordre décroissant.",
+        "La hauteur de l’arbre est toujours minimale."
+      ],
+      "correctAnswer": "Les valeurs des nœuds de gauche sont inférieures à la racine, et celles de droite sont supérieures.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est l’ordre d’un parcours en profondeur (DFS) en préfixe ?",
+      "options": [
+        "Sous-arbre gauche, sous-arbre droit, racine.",
+        "Sous-arbre gauche, racine, sous-arbre droit.",
+        "Racine, sous-arbre gauche, sous-arbre droit.",
+        "Sous-arbre droit, racine, sous-arbre gauche."
+      ],
+      "correctAnswer": "Racine, sous-arbre gauche, sous-arbre droit.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un arbre complet ?",
+      "options": [
+        "Un arbre où chaque nœud a exactement deux enfants.",
+        "Un arbre où tous les niveaux sont complètement remplis sauf peut-être le dernier.",
+        "Un arbre sans feuilles.",
+        "Un arbre binaire de recherche."
+      ],
+      "correctAnswer": "Un arbre où tous les niveaux sont complètement remplis sauf peut-être le dernier.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité de la recherche dans un arbre binaire équilibré contenant n éléments ?",
+      "options": [
+        "O(1).",
+        "O(log n).",
+        "O(n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(log n).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans quel cas utilise-t-on un arbre AVL ?",
+      "options": [
+        "Pour éviter les cycles dans l’arbre.",
+        "Pour optimiser les parcours en largeur.",
+        "Pour gérer des données non triées.",
+        "Pour garantir que l’arbre reste équilibré après des insertions et suppressions."
+      ],
+      "correctAnswer": "Pour garantir que l’arbre reste équilibré après des insertions et suppressions.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment insère-t-on un élément dans un arbre binaire de recherche ?",
+      "options": [
+        "En ajoutant l’élément à une position aléatoire.",
+        "En suivant les règles de tri : à gauche si inférieur, à droite si supérieur.",
+        "En suivant les règles de tri : à droite si inférieur, à gauche si supérieur.",
+        "En équilibrant l’arbre après chaque insertion."
+      ],
+      "correctAnswer": "En suivant les règles de tri : à gauche si inférieur, à droite si supérieur.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle méthode est utilisée pour équilibrer un arbre AVL ?",
+      "options": [
+        "Supprimer les nœuds les plus profonds.",
+        "Réorganiser les feuilles.",
+        "Effectuer des rotations gauches ou droites.",
+        "Inverser l’ordre des nœuds."
+      ],
+      "correctAnswer": "Effectuer des rotations gauches ou droites.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un parcours en largeur (BFS) ?",
+      "options": [
+        "Visiter les nœuds niveau par niveau, de haut en bas.",
+        "Visiter les nœuds de gauche à droite en profondeur.",
+        "Visiter uniquement les feuilles de l’arbre.",
+        "Parcourir les nœuds de droite à gauche en profondeur."
+      ],
+      "correctAnswer": "Visiter les nœuds niveau par niveau, de haut en bas.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est le rôle d’une rotation dans un arbre AVL ?",
+      "options": [
+        "Équilibrer l’arbre en respectant la différence de hauteur entre les sous-arbres gauche et droit.",
+        "Supprimer les nœuds inutiles.",
+        "Ajouter des éléments dans l’ordre croissant.",
+        "Réduire la profondeur totale de l’arbre."
+      ],
+      "correctAnswer": "Équilibrer l’arbre en respectant la différence de hauteur entre les sous-arbres gauche et droit.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans un arbre binaire, comment calcule-t-on la hauteur ?",
+      "options": [
+        "En comptant le nombre de nœuds total.",
+        "En mesurant la largeur maximale de l’arbre.",
+        "En comptant le nombre de niveaux de la racine à la feuille la plus profonde.",
+        "En comptant les feuilles uniquement."
+      ],
+      "correctAnswer": "En comptant le nombre de niveaux de la racine à la feuille la plus profonde.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la particularité des arbres rouges-noirs ?",
+      "options": [
+        "Ils ne permettent pas la suppression d’éléments.",
+        "Ils contiennent uniquement des données numériques.",
+        "Ils sont toujours parfaits.",
+        "Ils garantissent un équilibre partiel avec des règles basées sur la couleur des nœuds."
+      ],
+      "correctAnswer": "Ils garantissent un équilibre partiel avec des règles basées sur la couleur des nœuds.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un nœud feuille ?",
+      "options": [
+        "Un nœud au niveau racine.",
+        "Un nœud avec deux enfants.",
+        "Un nœud sans enfant.",
+        "Un nœud au milieu de l’arbre."
+      ],
+      "correctAnswer": "Un nœud sans enfant.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment supprime-t-on un nœud dans un arbre binaire de recherche ?",
+      "options": [
+        "On le remplace par son successeur ou son prédécesseur.",
+        "On déplace tous les nœuds restants vers la gauche.",
+        "On supprime tous ses enfants également.",
+        "On remplace sa valeur par NULL."
+      ],
+      "correctAnswer": "On le remplace par son successeur ou son prédécesseur.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est l’objectif principal d’un arbre binaire équilibré ?",
+      "options": [
+        "Garantir un tri strict des données.",
+        "Réduire le nombre total de nœuds.",
+        "Supprimer les doublons.",
+        "Minimiser la hauteur pour optimiser les opérations de recherche."
+      ],
+      "correctAnswer": "Minimiser la hauteur pour optimiser les opérations de recherche.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la hauteur maximale d’un arbre binaire non équilibré contenant n éléments ?",
+      "options": [
+        "n.",
+        "n/2.",
+        "log(n).",
+        "n²."
+      ],
+      "correctAnswer": "n.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est l’avantage principal des arbres binaires équilibrés par rapport aux arbres non équilibrés ?",
+      "options": [
+        "Temps de recherche, insertion et suppression optimisés.",
+        "Utilisation minimale de la mémoire.",
+        "Tous les nœuds contiennent deux enfants.",
+        "Parcours plus rapide en largeur."
+      ],
+      "correctAnswer": "Temps de recherche, insertion et suppression optimisés.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’une table de hachage ?",
+      "options": [
+        "Une structure de données qui associe des clés à des valeurs.",
+        "Une liste triée d’éléments.",
+        "Une pile d’éléments uniques.",
+        "Un graphe orienté."
+      ],
+      "correctAnswer": "Une structure de données qui associe des clés à des valeurs.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la fonction principale d’une table de hachage ?",
+      "options": [
+        "Stocker des données séquentiellement.",
+        "Trier les éléments par ordre croissant.",
+        "Rechercher des données en temps constant moyen.",
+        "Supprimer automatiquement les doublons."
+      ],
+      "correctAnswer": "Rechercher des données en temps constant moyen.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’une fonction de hachage ?",
+      "options": [
+        "Une fonction qui génère un entier unique à partir d’une clé donnée.",
+        "Une fonction utilisée pour tirer les clés.",
+        "Une fonction qui recherche directement les données.",
+        "Une fonction qui multiplie toutes les valeurs."
+      ],
+      "correctAnswer": "Une fonction qui génère un entier unique à partir d’une clé donnée.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que signifie \"collision\" dans une table de hachage ?",
+      "options": [
+        "La table de hachage est pleine.",
+        "Deux valeurs identiques sont stockées à des indices différents.",
+        "Une clé ne peut pas être insérée.",
+        "Deux clés différentes produisent le même indice."
+      ],
+      "correctAnswer": "Deux clés différentes produisent le même indice.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle méthode peut être utilisée pour résoudre les collisions dans une table de hachage ?",
+      "options": [
+        "Chalange.",
+        "Hachage double.",
+        "Sondage linéaire.",
+        "Toutes ces réponses."
+      ],
+      "correctAnswer": "Toutes ces réponses.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans le hachage par chalange, où sont stockées les clés en cas de collision ?",
+      "options": [
+        "Dans une liste chaînée de l’indice suivant.",
+        "Dans une liste chaînée au même indice.",
+        "Elles remplacent les clés existantes.",
+        "Dans une liste chaînée du premier indice libre."
+      ],
+      "correctAnswer": "Dans une liste chaînée au même indice.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité moyenne de l’insertion dans une table de hachage bien conçue ?",
+      "options": [
+        "O(1).",
+        "O(log n).",
+        "O(n).",
+        "O(n²)."
+      ],
+      "correctAnswer": "O(1).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est une caractéristique importante d’une bonne fonction de hachage ?",
+      "options": [
+        "Elle génère des indices uniques pour toutes les clés possibles.",
+        "Elle tire les données avant de les insérer.",
+        "Elle distribue uniformément les clés parmi les indices.",
+        "Elle utilise le même indice pour des clés similaires."
+      ],
+      "correctAnswer": "Elle distribue uniformément les clés parmi les indices.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel problème survient si une table de hachage est trop pleine ?",
+      "options": [
+        "Le risque de collisions augmente.",
+        "Les clés sont supprimées automatiquement.",
+        "La table est automatiquement triée.",
+        "Les données sont transférées dans une liste triée."
+      ],
+      "correctAnswer": "Le risque de collisions augmente.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est une technique courante pour réduire les collisions dans une table de hachage ?",
+      "options": [
+        "Réorganiser les indices à chaque insertion.",
+        "Utiliser un graphe pour gérer les indices.",
+        "Supprimer les clés en double.",
+        "Augmenter la taille de la table."
+      ],
+      "correctAnswer": "Augmenter la taille de la table.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce que le sondage linéaire dans une table de hachage ?",
+      "options": [
+        "Une méthode de résolution de collisions où l’on vérifie séquentiellement les indices suivants disponibles.",
+        "Une méthode de résolution de collisions où l’on vérifie aléatoirement les indices suivants disponibles.",
+        "Une technique pour supprimer les doublons.",
+        "Une méthode pour diviser la table en segments."
+      ],
+      "correctAnswer": "Une méthode de résolution de collisions où l’on vérifie séquentiellement les indices suivants disponibles.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que se passe-t-il lorsqu’une clé est introuvable dans une table de hachage ?",
+      "options": [
+        "Une erreur est levée.",
+        "Un indice NULL est retourné.",
+        "La recherche retourne une valeur vide ou un message d’échec.",
+        "Toutes les clés sont réinitialisées."
+      ],
+      "correctAnswer": "La recherche retourne une valeur vide ou un message d’échec.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment une table de hachage est-elle utilisée dans un système d’authentification ?",
+      "options": [
+        "Pour stocker les noms d’utilisateur et mots de passe sous forme hachée.",
+        "Pour tirer les utilisateurs par date d’inscription.",
+        "Pour calculer le temps de connexion.",
+        "Pour limiter le nombre de connexions simultanées."
+      ],
+      "correctAnswer": "Pour stocker les noms d’utilisateur et mots de passe sous forme hachée.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est une limitation des tables de hachage ?",
+      "options": [
+        "Elles ne peuvent pas être utilisées pour des données triées.",
+        "Elles nécessitent une fonction de hachage optimale.",
+        "Elles ne supportent pas les données volumineuses.",
+        "Elles ne permettent pas de rechercher des doublons."
+      ],
+      "correctAnswer": "Elles ne peuvent pas être utilisées pour des données triées.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment améliorer-t-on une fonction de hachage pour des clés similaires ?",
+      "options": [
+        "En utilisant une combinaison de hachage double.",
+        "En triant les clés avant de les insérer.",
+        "En évitant les clés numériques.",
+        "En augmentant la taille de la table."
+      ],
+      "correctAnswer": "En utilisant une combinaison de hachage double.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est l’objectif principal du sondage quadratique ?",
+      "options": [
+        "Ajouter automatiquement des clés en cas de dépassement.",
+        "Réorganiser les données après insertion.",
+        "Supprimer les doublons dans la table.",
+        "Réduire les clusters de collisions dans une table de hachage."
+      ],
+      "correctAnswer": "Réduire les clusters de collisions dans une table de hachage.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle structure de données est souvent utilisée pour gérer les collisions dans une table de hachage ?",
+      "options": [
+        "Liste chaînée.",
+        "Graphe.",
+        "Tableau dynamique.",
+        "Chaîne de caractères."
+      ],
+      "correctAnswer": "Liste chaînée.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un graphe en théorie des graphes ?",
+      "options": [
+        "Une liste triée d’entiers.",
+        "Une structure combinatoire avec des cycles uniquement.",
+        "Un tableau dynamique.",
+        "Une structure composée de sommets et d’arêtes."
+      ],
+      "correctAnswer": "Une structure composée de sommets et d’arêtes.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment représente-t-on un graphe en mémoire ?",
+      "options": [
+        "Avec une table de hachage.",
+        "Avec une liste d’incidence.",
+        "Avec une matrice d’adjacence.",
+        "Toutes les réponses."
+      ],
+      "correctAnswer": "Toutes les réponses.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans un graphe orienté, que représente une flèche entre deux sommets ?",
+      "options": [
+        "Une arête pondérée.",
+        "Une connexion unidirectionnelle.",
+        "Une connexion bidirectionnelle.",
+        "Le pointeur suivant."
+      ],
+      "correctAnswer": "Une connexion unidirectionnelle.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est l’utilité d’une matrice d’adjacence pour un graphe ?",
+      "options": [
+        "Optimiser les cycles.",
+        "Représenter les connexions entre les sommets.",
+        "Calculer les distances entre sommets.",
+        "Supprimer les arêtes inutiles."
+      ],
+      "correctAnswer": "Représenter les connexions entre les sommets.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une matrice d’adjacence d’un graphe non orienté, que représente l’élément a[j] [j] ?",
+      "options": [
+        "Le poids du sommet j.",
+        "La somme des degrés des sommets i et j.",
+        "Une arête entre les sommets i et j.",
+        "Un chemin bidirectionnel entre les sommets i et j."
+      ],
+      "correctAnswer": "Une arête entre les sommets i et j.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un sommet isolé dans un graphe ?",
+      "options": [
+        "Un sommet connecté à une seule arête.",
+        "Un sommet faisant partie d’un cycle.",
+        "Un sommet sans connexion à d’autres sommets.",
+        "Un sommet avec un degré maximal."
+      ],
+      "correctAnswer": "Un sommet sans connexion à d’autres sommets.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est le rôle principal du parcours en profondeur (DFS) ?",
+      "options": [
+        "Explorer tous les sommets d’un graphe en suivant les arêtes.",
+        "Identifier les arêtes pondérées.",
+        "Optimiser les cycles.",
+        "Calculer le diamètre du graphe."
+      ],
+      "correctAnswer": "Explorer tous les sommets d’un graphe en suivant les arêtes.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle structure de données est utilisée pour implémenter un parcours en largeur (BFS) ?",
+      "options": [
+        "Une table de hachage.",
+        "Une pile.",
+        "Une liste chaînée.",
+        "Une file."
+      ],
+      "correctAnswer": "Une file.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans un graphe orienté, que signifie le degré entrant d’un sommet ?",
+      "options": [
+        "Le nombre total de sommets voisins.",
+        "Le nombre d’arcs partant du sommet.",
+        "Le poids total des arcs connectés.",
+        "Le nombre d’arcs arrivant au sommet."
+      ],
+      "correctAnswer": "Le nombre d’arcs arrivant au sommet.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Qu’est-ce qu’un chemin élémentaire dans un graphe ?",
+      "options": [
+        "Un chemin circulaire.",
+        "Un chemin où chaque sommet apparaît au plus une fois.",
+        "Un chemin sans arêtes pondérées.",
+        "Un chemin où chaque sommet est visité deux fois."
+      ],
+      "correctAnswer": "Un chemin où chaque sommet apparaît au plus une fois.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une matrice d’adjacence, que représente la diagonale principale pour un graphe non orienté sans boucle ?",
+      "options": [
+        "Les poids des sommets isolés.",
+        "Zéros uniquement.",
+        "Un pour chaque sommet.",
+        "Les degrés des sommets."
+      ],
+      "correctAnswer": "Zéros uniquement.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est l’utilité d’une liste d’adjacence pour un graphe ?",
+      "options": [
+        "Supprimer les arêtes inutiles.",
+        "Identifier les sommets isolés.",
+        "Représenter les connexions des arêtes de manière efficace en mémoire.",
+        "Représenter les connexions des sommets de manière efficace en mémoire."
+      ],
+      "correctAnswer": "Représenter les connexions des sommets de manière efficace en mémoire.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans un graphe orienté, que signifie le degré total d’un sommet ?",
+      "options": [
+        "Le nombre d’arcs arrivant au sommet.",
+        "La somme des degrés entrant et sortant du sommet.",
+        "Le nombre de cycles connectés au sommet.",
+        "Le poids total des arcs."
+      ],
+      "correctAnswer": "La somme des degrés entrant et sortant du sommet.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est la complexité temporelle d’un parcours en profondeur (DFS) dans un graphe représenté par une liste d’adjacence ?",
+      "options": [
+        "O(V ~ 2).",
+        "O(V + E).",
+        "O(E ~ 2).",
+        "O(V × E)."
+      ],
+      "correctAnswer": "O(V + E).",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que fait la fonction suivante lorsqu’elle est appelée avec les sommets u et v ?",
+      "options": [
+        "Ajoute une arête bidirectionnelle entre u et v dans une matrice d’adjacence.",
+        "Supprime une arête entre u et v.",
+        "Ajoute une boucle sur le sommet u.",
+        "Vérifie l’existence d’une arête entre u et v."
+      ],
+      "correctAnswer": "Ajoute une arête bidirectionnelle entre u et v dans une matrice d’adjacence.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une liste d’adjacence représentée avec la structure suivante :",
+      "options": [
+        "Créez un nouveau nœud et insérez-le au début de la liste.",
+        "Ajoutez un pointeur vers v à la fin de la liste de u.",
+        "Ajoutez un nouveau tableau à la structure.",
+        "Remplacez la liste existante par une nouvelle liste."
+      ],
+      "correctAnswer": "Créez un nouveau nœud et insérez-le au début de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une matrice d’adjacence, que signifie matrice[j][j] = 1 pour un graphe orienté ?",
+      "options": [
+        "Il existe un arc de j vers j.",
+        "Il existe un arc de j vers i.",
+        "Les sommets i et j sont isolés.",
+        "Les sommets i et j sont connectés dans les deux sens."
+      ],
+      "correctAnswer": "Il existe un arc de j vers j.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que fait le code suivant dans une liste chaînée simple ?",
+      "options": [
+        "Supprime le nœud suivant de la liste.",
+        "Insère un nouveau nœud après le nœud actuel.",
+        "Échange deux nœuds consécutifs.",
+        "Duplique le nœud suivant."
+      ],
+      "correctAnswer": "Supprime le nœud suivant de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "On se trouve le plus petit élément dans un arbre binaire de recherche ?",
+      "options": [
+        "La feuille la plus à gauche.",
+        "La feuille la plus à droite.",
+        "La racine.",
+        "Directement sous la racine si l’arbre est complet."
+      ],
+      "correctAnswer": "La feuille la plus à gauche.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que retourne un parcours infixe d’un arbre binaire de recherche ?",
+      "options": [
+        "Les éléments dans l’ordre d’insertion.",
+        "Les éléments triés par ordre décroissant.",
+        "Les éléments triés par ordre croissant.",
+        "Une permutation aléatoire des éléments."
+      ],
+      "correctAnswer": "Les éléments triés par ordre croissant.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment accéder à une valeur stockée dans une table de hachage ?",
+      "options": [
+        "En triant les clés et en effectuant une recherche binaire.",
+        "En indexant directement avec la clé.",
+        "En calculant le hachage de la clé et en l’utilisant comme index.",
+        "En utilisant une liste chaînée."
+      ],
+      "correctAnswer": "En calculant le hachage de la clé et en l’utilisant comme index.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle méthode est utilisée pour résoudre les collisions dans une table de hachage ?",
+      "options": [
+        "Sondage linéaire.",
+        "Utilisation d’une liste chaînée.",
+        "Double hachage.",
+        "Toutes les réponses ci-dessus."
+      ],
+      "correctAnswer": "Toutes les réponses ci-dessus.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel est l’impact de la suppression d’un nœud intermédiaire dans une liste chaînée simple ?",
+      "options": [
+        "Le nœud intermédiaire est supprimé et la liste reste intacte.",
+        "Le nœud est supprimé, mais la liste perd son intégrité.",
+        "Tous les nœuds après celui supprimé sont également supprimés.",
+        "Le pointeur current devient NULL."
+      ],
+      "correctAnswer": "Le nœud intermédiaire est supprimé et la liste reste intacte.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que retourne un parcours positifux d’un arbre binaire ?",
+      "options": [
+        "Les nœuds visités dans l’ordre croissant.",
+        "Les nœuds visités dans l’ordre décroissant.",
+        "Les nœuds visités après leurs sous-arbres gauche et droit.",
+        "Les nœuds visités avant leurs sous-arbres gauche et droit."
+      ],
+      "correctAnswer": "Les nœuds visités après leurs sous-arbres gauche et droit.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quel algorithme est utilisé pour insérer un élément dans un arbre binaire de recherche ?",
+      "options": [
+        "Parcours en largeur (BFS).",
+        "Parcours en profondeur (DFS).",
+        "Algorithme récursif basé sur les comparaisons.",
+        "Tri par insertion."
+      ],
+      "correctAnswer": "Algorithme récursif basé sur les comparaisons.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une table de hachage avec chaînage, que fait-on lorsqu’une collision se produit ?",
+      "options": [
+        "Remplace la clé existante par la nouvelle clé.",
+        "Ajoute la nouvelle clé à une liste chaînée au même emplacement.",
+        "Ajoute la clé dans une nouvelle table.",
+        "Ignore la nouvelle clé."
+      ],
+      "correctAnswer": "Ajoute la nouvelle clé à une liste chaînée au même emplacement.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle propriété doit avoir une bonne fonction de hachage ?",
+      "options": [
+        "Répartir les clés de manière uniforme dans la table.",
+        "Générer des indices consécutifs pour toutes les clés.",
+        "Utiliser les mêmes indices pour des clés similaires.",
+        "Être lente pour minimiser les collisions."
+      ],
+      "correctAnswer": "Répartir les clés de manière uniforme dans la table.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Comment représente-t-on un graphe avec une matrice d’adjacence ?",
+      "options": [
+        "Une matrice où chaque élément indique la présence d’une arête entre deux sommets.",
+        "Une matrice contenant les poids des sommets.",
+        "Une matrice contenant les poids des arêtes uniquement.",
+        "Une matrice où chaque élément contient un sommet voisin."
+      ],
+      "correctAnswer": "Une matrice où chaque élément indique la présence d’une arête entre deux sommets.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans une liste doublement chaînée, que signifie un pointeur NULL dans le champ précédent d’un nœud ?",
+      "options": [
+        "Le nœud est le dernier de la liste.",
+        "Le nœud est le premier de la liste.",
+        "Le nœud est isolé.",
+        "La liste contient un cycle."
+      ],
+      "correctAnswer": "Le nœud est le premier de la liste.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Dans un arbre binaire, que signifie un nœud sans enfants ?",
+      "options": [
+        "Une feuille.",
+        "Une racine.",
+        "Un nœud isolé.",
+        "Un nœud intermédiaire."
+      ],
+      "correctAnswer": "Une feuille.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Que retourne un parcours en préfixe d’un arbre binaire ?",
+      "options": [
+        "Racine, sous-arbre gauche, sous-arbre droit.",
+        "Sous-arbre gauche, racine, sous-arbre droit.",
+        "Sous-arbre gauche, sous-arbre droit, racine.",
+        "Sous-arbre droit, racine, sous-arbre gauche."
+      ],
+      "correctAnswer": "Racine, sous-arbre gauche, sous-arbre droit.",
+      "categorie": "Structure de données"
+    },
+    {
+      "question": "Quelle est l’objectif principal de l’algorithme de Floyd-Warshall ?",
+      "options": [
+        "Trouver le plus court chemin entre deux sommets spécifiques.",
+        "Trouver les plus courts chemins entre toutes les paires de sommets dans un graphe pondéré.",
+        "Détecter les cycles dans un graphe orienté.",
+        "Trouver un arbre couvrant minimal."
+      ],
+      "correctAnswer": "Trouver les plus courts chemins entre toutes les paires de sommets dans un graphe pondéré.",
+      "categorie": "Structure de données"
+    }
+  ]
+}
